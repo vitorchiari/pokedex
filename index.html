@@ -6,10 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokedex</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-
+  <div class="container">
+    <div class="pokedex">
+      <div id="pokedex_pokemon_image">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif" alt="Pokemon Image">
+      </div>
+      <div id="pokedex_pokemon_info">
+        <span id="pokemon_id">#6</span>
+        <span id="pokemon_name">Charizard</span>
+      </div>
+      <form action="submit" id="pokedex_form">
+        <input type="text" placeholder="Nome ou Código" id="pokedex_input">
+      </form>
+      <img src="assets/images/pokedex.png" alt="Pokedex">
+    </div>
+  </div>
+  <script src="scripts/script.js" />
 </body>
 
 </html>
