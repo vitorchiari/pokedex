@@ -2,3 +2,66 @@
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  min-height: 100vh;
+  background-color: rgba(9, 9, 83, 0.664);
+  font-family: consolas;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#pokedex_pokemon_image {
+  position: relative;
+  top: 380px;
+  left: 68px;
+  width: 252px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokedex_pokemon_image img {
+  width: 150px;
+}
+
+#pokedex_pokemon_info {
+  position: relative;
+  top: 420px;
+  left: 75px;
+  width: 240px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pokedex_form {
+  position: relative;
+  top: 450px;
+  left: 35px;
+}
+
+#pokedex_input {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  background-color: #e3e3e3;
+  border: none;
+  border-radius: 10px;
+  font-family: consolas;
+  font-size: 20px;
+}
