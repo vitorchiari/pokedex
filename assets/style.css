@@ -8,6 +8,9 @@ body {
   height: 100vh;
   background-color: rgba(9, 9, 83, 0.664);
   font-family: consolas;
+  background-image: url("images/background-body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 input[type="text"],
